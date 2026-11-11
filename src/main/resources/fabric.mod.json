@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "elementalarms",
+	"version": "${version}",
+	"name": "Elemental Arms",
+	"description": "Three weapons: a Grappling Hook, a Fire Gun that burns any creature until it dies, and an Ice Gun that freezes any creature in place for 5 seconds.",
+	"authors": [],
+	"license": "CC0-1.0",
+	"icon": "assets/elementalarms/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.elementalarms.ElementalArms"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
